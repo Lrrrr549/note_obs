@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutti.md",
+                "file": "Tutti/Tutti.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutti.md",
+                "file": "Tutti/Tutti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutti.md",
+                "file": "Tutti/Tutti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutti.md"
+                "file": "Tutti/Tutti.md"
               }
             }
           }
@@ -156,8 +156,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e5ad2e4ebe502d12",
+  "active": "6409a32d99699800",
   "lastOpenFiles": [
-    "Tutti.md"
+    "Tutti",
+    "Tutti/Tutti.md"
   ]
 }
