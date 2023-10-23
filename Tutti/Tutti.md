@@ -63,9 +63,11 @@ PRB（Physical Resource Block，物理资源块）Tutti预测间隔为Microscope
 直接原因：帧传输过程中无线资源低下的传输效率。
 
 Figure2(a)：
-	①UE向BS发送测量报告，监测无线信道质量。当新的数据包到达UE的缓冲区时，在②中触发SR/BSR（缓冲状态报告）消息，发送给BS。在③-⑨结束后，返回一个上行链路（UL）Grant信息，包括PRB配置；最后，UE缓冲区的数据被填充到PRB中，并且上传到BS。如果UE一次传输失败，将重新发送BSR消息。
+	①UE向BS发送测量报告，监测无线信道质量。
+	当新的数据包到达UE的缓冲区时，在②中触发SR/BSR（缓冲状态报告）消息，发送给BS。
+	在③-⑨结束后，返回一个上行链路（UL）Grant信息，包括PRB配置；最后，UE缓冲区的数据被填充到PRB中，并且上传到BS。如果UE一次传输失败，将重新发送BSR消息。
 
-​![](https://cdn.nlark.com/yuque/0/2023/png/39250676/1697809161180-57c24e27-e72f-4113-880f-07eccd04215f.png)​
+​![[Pasted image 20231023221325.png]]​
 
 ​![](https://cdn.nlark.com/yuque/__latex/df127d529fab66efadd649cecc6aee8f.svg)​
 
