@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutti/Tutti.md",
+                "file": "Tutti/部分文献.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutti/Tutti.md",
+                "file": "Tutti/部分文献.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutti/Tutti.md",
+                "file": "Tutti/部分文献.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutti/Tutti.md"
+                "file": "Tutti/部分文献.md"
               }
             }
           }
@@ -168,12 +168,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3401e916d2b7dee4",
+  "active": "6409a32d99699800",
   "lastOpenFiles": [
+    "Tutti/Tutti.md",
+    "Tutti/部分文献.md",
     "Tutti/理解.md",
     "未命名.md",
     "Tutti/名词.md",
-    "Tutti/Tutti.md",
     "Tutti"
   ]
 }
