@@ -11,26 +11,6 @@
             "id": "dd94b08d027c8913",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e5ad2e4ebe502d12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutti/Tutti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3401e916d2b7dee4",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Tutti/Tutti.md",
@@ -39,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,10 +147,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3401e916d2b7dee4",
+  "active": "dd94b08d027c8913",
   "lastOpenFiles": [
-    "Tutti/部分文献.md",
     "Tutti/Tutti.md",
+    "Tutti/部分文献.md",
     "Tutti/理解.md",
     "未命名.md",
     "Tutti/名词.md",
