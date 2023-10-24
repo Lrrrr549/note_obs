@@ -68,13 +68,11 @@ Figure2(a)：
 	在③-⑨结束后，返回一个上行链路（UL）Grant信息，包括PRB配置；最后，UE缓冲区的数据被填充到PRB中，并且上传到BS。如果UE一次传输失败，将重新发送BSR消息。
 
 ​![[Pasted image 20231023221325.png]]​
-
-​![](https://cdn.nlark.com/yuque/__latex/df127d529fab66efadd649cecc6aee8f.svg)​
+​
+我们将数据包到达、UL授权、数据传输和重传之间的时间分别定义为$T_{wait}$、$T_{trans}$和$T_{re-trans}$
 
 n代帧的上传延迟表示为：
-
-​![](https://cdn.nlark.com/yuque/__latex/e030a0f07392132bc028917f55dd8bd6.svg)​
-
+$$T_{n}=\sum^{R}_{r=1}(T^r_{wait}+T^r_{trans}+T^r_{re-trans}),1\leqslant{r}\leqslant{R}$$
 r 是资源请求-授权轮次的标识符。
 
 这种机制的不足：
@@ -83,7 +81,7 @@ r 是资源请求-授权轮次的标识符。
 
 ​![](https://cdn.nlark.com/yuque/0/2023/png/39250676/1697854855660-8424503e-00d1-4b07-ab1f-9411645c23d0.png)​
 
-多轮交互时资源等待延迟长。Figure 4显示，①大部分延迟用于等待UL Grant。②![](https://cdn.nlark.com/yuque/__latex/57606f2aa198b693be01dfe8465fd5b6.svg)在多数情况下占据主导地位。
+多轮交互时资源等待延迟长。Figure 4显示，①大部分延迟用于等待UL Grant。②$T_{wait}$在多数情况下占据主导地位。
 
 ​![](https://cdn.nlark.com/yuque/0/2023/png/39250676/1697857037510-e4489ec1-c86b-49d7-a83d-1e6e3984b8f5.png)​
 
@@ -165,6 +163,6 @@ Tutti也使用ResNet-50![](https://cdn.nlark.com/yuque/__latex/c25b65cf26524b1f1
 
 2. 时间特征提取阶段。
     
-    使用GRU（门控循环单元），输入时间序列特征组来预测下一帧的大小。每个特征组将个（一般为20）历史序序列化帧的特征向量串联起来，该阶段的核心是基于GRU的特征提取器。将新特征组和过去特征组生成的旧中间结果结合，然后推断出下一个值，即$$F_{n+1}=GRU(G^{inter}_{n},\{V_{n-m+1},V_{n-m+2},...,V_{n}\})$$其中，$G_{n}^{inter}=GRU(G^{inter}_{n-1},\{V_{n-m},V_{n-m+1},...,V_{n-1}\})$
+    使用GRU（门控循环单元），输入时间序列特征组来预测下一帧的大小。每个特征组将个（一般为20）历史序序列化帧的特征向量串联起来，该阶段的核心是基于GRU的特征提取器。将新特征组和过去特征组生成的旧中间结果结合，然后推断出下一个值，即$$F_{n+1}=GRU(G^{inter}_{n},\{V_{n-m+1},V_{n-m+2},...,V_{n}\})$$其中，$$G_{n}^{inter}=GRU(G^{inter}_{n-1},\{V_{n-m},V_{n-m+1},...,V_{n-1}\})$$
 ## 4.2 Real-time Estimation of Link Dynamics（链路动态的实时估计）
 
