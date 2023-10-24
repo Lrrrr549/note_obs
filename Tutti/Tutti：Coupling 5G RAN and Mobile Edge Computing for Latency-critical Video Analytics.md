@@ -169,3 +169,6 @@ Tutti也使用ResNet-50![](https://cdn.nlark.com/yuque/__latex/c25b65cf26524b1f1
 目前对链路动态的理解主要基于UE进行的channel测量。CLAW和PBE-CC，通过UE的解码通道来测量链路的带宽和拥塞窗口。但是这样存在粗粒度延迟，比如每80个时隙触发一次，最多40ms，同时信道波动也会有影响。
 Tutti则选用了预测的方法，不需要等待报告。
 MEC的RNIS功能可以记录SINR（信噪比）轨迹（ms），提供给Tutti用来学习。
+短期SINR轨迹服从截断高斯分布，可以用统计似然方法进行预测估计；同时也选择其他RAN状态信息来对似然参数进行校准。
+![[Pasted image 20231024200104.png]]
+Fig 10，200ms内SINR轨迹。遵循截断高斯分布，即$SINR~$
