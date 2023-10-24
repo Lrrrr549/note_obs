@@ -167,4 +167,5 @@ Tutti也使用ResNet-50![](https://cdn.nlark.com/yuque/__latex/c25b65cf26524b1f1
 ## 4.2 Real-time Estimation of Link Dynamics（链路动态的实时估计）
 
 目前对链路动态的理解主要基于UE进行的channel测量。CLAW和PBE-CC，通过UE的解码通道来测量链路的带宽和拥塞窗口。但是这样存在粗粒度延迟，比如每80个时隙触发一次，最多40ms，同时信道波动也会有影响。
-Tutti则选用了预测的方法
+Tutti则选用了预测的方法，不需要等待报告。
+MEC的RNIS功能
