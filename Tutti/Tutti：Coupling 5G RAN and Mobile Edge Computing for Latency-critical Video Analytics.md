@@ -175,4 +175,5 @@ Fig 10，200ms内SINR轨迹。遵循截断高斯分布，即$SINR\sim\mathcal{N}
 预测：截断高斯似然估计方法。似然模型表述为：
 $$I^{est}=\mathcal{L}(\{I_{1},\cdots,I_{i},\cdots,I_{m}\}),$$
 $I^{est}$是下一时刻的SINR，$I_{i}$属于短期（200ms）历史轨迹，$\mathcal{L}(\cdot)$是似然函数。同时为了减小误差，文章设置了期望，给了上下界$\int^a_{b}$
-提高精度：主要在$(a,b)$上做文章。最初设定为历史集合的shang'xia'j
+提高精度：主要在$(a,b)$上做文章。最初设定为历史集合的上下界，但容易受到信道波动的影响。MEC的RNIS可以记忆SINR痕迹，参考这些数据对$a,b$进行微调。
+## 4.3 Generating Demand Rule
