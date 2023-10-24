@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/二阶段.md",
+                "file": "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作/二阶段.md",
+                "file": "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作/二阶段.md",
+                "file": "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作/二阶段.md"
+                "file": "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "dd94b08d027c8913",
   "lastOpenFiles": [
-    "Tutti/Tutti.md",
     "工作/二阶段.md",
+    "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
     "Tutti/名词.md",
     "Tutti/理解.md",
     "Tutti/部分文献.md",
