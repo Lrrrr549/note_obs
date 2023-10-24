@@ -2,6 +2,6 @@
   "accentColor": "",
   "theme": "moonstone",
   "cssTheme": "Things",
-  "baseFontSize": 16,
-  "textFontFamily": "Times New Roman"
+  "baseFontSize": 18,
+  "textFontFamily": "Times New Roman,Adobe 宋体 Std"
 }
