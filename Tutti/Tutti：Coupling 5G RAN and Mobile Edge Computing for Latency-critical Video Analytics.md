@@ -188,5 +188,9 @@ $I^{est}$是下一时刻的SINR，$I_{i}$属于短期（200ms）历史轨迹，$
 
 2. 填充物理通道的开销与占用。
 	根据3GPP 5G NR规范（Rel-15 TS 38.306），量化$PRB_{n+1}^{all}$为：
-	$PRB^{all}_{n+1}=\frac{5\cdot{10^4}}{1-OH}{\cdot}$
+	$$PRB^{all}_{n+1}=\frac{5\cdot{10^4}}{1-OH}{\cdot}\frac{F_{n+1}^{PHY}}{M(I^{est})},$$
+	$OH$是物理信道开销，$M(\cdot)$起到信道调制功能，可通过$I^{est}$进行推导。
+# 5  DDL-SENSITIVE RESOURCE PROVISION（DDL敏感的资源提供）
+
+上文决定了请求规则，则Tutti接下来要保证在DDLzhi'q
 
