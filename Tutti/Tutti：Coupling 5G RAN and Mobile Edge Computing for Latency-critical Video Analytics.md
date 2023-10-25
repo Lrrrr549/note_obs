@@ -253,5 +253,10 @@ Tutti部署：
 	空的篮球场，保持UE与BS的连接，在30m的覆盖区域内自由行走。
 ## 7.2  System-level Evaluation
 
+Tutti显著提高了视频分析QoE。
+![[Pasted image 20231025192449.png]]
+图15表示，Tutti可以满足三种任务的帧响应容差（200ms）。
+![[Pasted image 20231025192812.png]]
+图16表示，Tutti的感知精度相对于二者均有提升。
 
 
