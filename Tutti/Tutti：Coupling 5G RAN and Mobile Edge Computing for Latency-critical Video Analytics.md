@@ -269,7 +269,9 @@ Tutti显著提高了视频分析QoE。
 		![[Pasted image 20231025195016.png]]
 		srsEdge与Tutti有不同的响应延迟。
 		srsEdge很平均，均在236ms左右；Tutti中，OD任务实现最小延迟响应，Web和FT则较高。
-		原因：Tutti能有效理解OD任务中的延迟关键型QoE需求
+		原因：Tutti能有效理解OD任务中的延迟关键型QoE需求，srsEdge则是依赖用户设备的缓冲状态来决定分配无线资源。
+		同时，Tutti在其他应用中不会导致性能下降的太多，在Web和FT中增加的延迟是可接受的。
+	在
 	
 
 
