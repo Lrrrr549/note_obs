@@ -234,5 +234,12 @@ Southern API：Tutti和RAN之间，获取RAN状态和资源配置消息；
 开发了基于free5GC的5G Core；
 在LTE RF设置下对SIM卡进行重新编程
 
+Tutti部署：
+- Tutti 部署在一台边缘服务器上，该服务器的配置为 Intel I9-10900X 处理器和 NVIDIA Tesla V100 32G 显卡。
+- 部署遵循 CUPS（Control and User Plane Separation）原则，分为数据面和控制面。
+- 数据面负责将流量路由到边缘应用程序，采用了 LightEdge 作为简单的 UPF（User Plane Function）实现，使用 ETSI（European Telecommunications Standards Institute）兼容的 openvSwitch 并通过 P4 规则路由流量。
+- 控制面包括两个模块，一个是定制需求模块（demand customization module），使用 Python 实现，负责根据需求调整资源。另一个是资源分配模块，使用 C/C++ 实现，用于实时分配资源。
+- 为了在 Tutti 和底层蜂窝平台之间实现透明的互动（避免更改原始消息交互），采用了 5GEmPOWER 的切片管理和资源抽象层，用于监控 RAN 状态信息并执行 Tutti 的资源配置。
+- 使用 Flask-RESTful APIs 实现了南北接口，其中南接口使用 C++ 编写，北接口使用 Python 编写
 
 
