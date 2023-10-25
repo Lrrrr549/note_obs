@@ -220,4 +220,8 @@ $(T_{k}^{ddl}-t{\cdot}TTI)$表示DDL的接近程度，$(PRB_{n+1}^{all}-\sum_{i=
 ![[Pasted image 20231025164123.png]]
 如图所示，根据SDN/NFV原则将软件空间分为用户区域和控制区域，与通用的标准相兼容。用户平面功能（UPF）起到传输流量的作用，控制平面则是与Tutti相关。
 GTP-U、N4/N6、N5接口：保证数据包传输；
-Northern API：
+Northern API：Tutti和边缘应用程序交互，获取应用层上下文信息；
+Southern API：Tutti和RAN之间，获取RAN状态和资源配置消息；
+为了减少在接口通信中花费的时间，采取了以下措施：
+	1. 定义RESTful节点，统一两个API的消息类型
+	2. 
