@@ -230,4 +230,9 @@ Southern API：Tutti和RAN之间，获取RAN状态和资源配置消息；
 ![[Pasted image 20231025170326.png]]
 设备如图14，
 蜂窝网络实现：选用修改后的“4G RAN with 5G Core”作为蜂窝实现。
-在笔记本电脑上搭建
+在笔记本电脑上搭建基于srsRAN的4G LTE BS；
+开发了基于free5GC的5G Core；
+在LTE RF设置下对SIM卡进行重新编程
+
+
+
