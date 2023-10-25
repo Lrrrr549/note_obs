@@ -213,3 +213,8 @@ $m^k_t$表示满意度，有三个值：1（分配资源大于最低生存线）
 激励机制中仍存在风险：不能确保一个frame在DDL内完全交付。如，即使$P_{wnd}^*$以线性增长，由于存在其他更高优先级的用户，延迟关键用户也可能无法首先被分配资源。所以加入了bottom-line方法来保证最后期限。
 加速机制的直观概念是，当用户TTL接近DDL时，优先为用户提供资源，文章以指数增加$P_{wnd}^*$的方法来实现。
 $$\large{P_{wnd}^*=e^{-(T_{k}^{ddl}-t{\cdot}TTI){\cdot}(PRB_{n+1}^{all}-\sum_{i=1}^{t}PRB^{grant}_{i})}}$$
+$(T_{k}^{ddl}-t{\cdot}TTI)$表示DDL的接近程度，$(PRB_{n+1}^{all}-\sum_{i=1}^{t}PRB^{grant}_{i})$表示资源分配的状态。
+## 5.2 Standard-compatible Interaction Protocol（标准兼容交互协议）
+
+目的：方便RAN与边缘服务器间的通信。
+![[Pasted image 20231025164123.png]]
