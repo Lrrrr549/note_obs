@@ -241,5 +241,9 @@ Tutti部署：
 - 控制面包括两个模块，一个是定制需求模块（demand customization module），使用 Python 实现，负责根据需求调整资源。另一个是资源分配模块，使用 C/C++ 实现，用于实时分配资源。
 - 为了在 Tutti 和底层蜂窝平台之间实现透明的互动（避免更改原始消息交互），采用了 5GEmPOWER 的切片管理和资源抽象层，用于监控 RAN 状态信息并执行 Tutti 的资源配置。
 - 使用 Flask-RESTful APIs 实现了南北接口，其中南接口使用 C++ 编写，北接口使用 Python 编写
+# 7 EVALUATION
+## 7.1 Experiment Setup
 
+系统级比较方法：
+基线：srsRAN+LightEdge+边缘服务器，遵循多轮资源请求-授予
 
