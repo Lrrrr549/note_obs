@@ -276,7 +276,9 @@ Tutti显著提高了视频分析QoE。
 			UE-BS距离从5-25米，在位置站点周围行走，绘制OD帧响应延迟。
 			![[Pasted image 20231025200429.png]]
 			Tutti保持200ms以内，srsEdge持续增加。
-		
-	
+		静态与动态进行比较：
+		![[Pasted image 20231025201708.png]]
+		无论是静态还是动态，srsEdge都不能满足DDL，而Tutti表现良好。
+	综上，作者认为Tutti良好的适应性在于它可以从RNIS中捕获ms级别的RAN状态信息。
 
 
