@@ -245,5 +245,5 @@ Tutti部署：
 ## 7.1 Experiment Setup
 
 系统级比较方法：
-基线：srsRAN+LightEdge+边缘服务器，遵循多轮资源请求-授予
+基线：srsRAN+LightEdge+边缘服务器，遵循多轮资源“请求-授予”机制；OnSlicing网络切片方法
 
