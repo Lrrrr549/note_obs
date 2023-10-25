@@ -230,4 +230,4 @@ Southern API：Tutti和RAN之间，获取RAN状态和资源配置消息；
 ![[Pasted image 20231025170326.png]]
 设备如图14，
 蜂窝网络实现：选用修改后的“4G RAN with 5G Core”作为蜂窝实现。
-
+在笔记本电脑上搭建
