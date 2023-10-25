@@ -204,5 +204,5 @@ Fig 12展示了操作流程。
 ## 5.1 Incentive and Acceleration Mechanism（激励与加速机制）
 
 公平分配条款的激励机制。
-首先定义一个度量值$\mathcal{S}_{t}$，表达获取资源分配时的满意程度。
+首先定义一个度量值$\mathcal{S}_{t}$，表达在TTI传输时间间隔内，获取资源PRB分配时的满意程度。
 $$\mathcal{S}_{t}=\sum_{k=1}^{K}sgn(m^k_t){\cdot}\zeta[P_{k},\Delta^k_t(PRB)],$$
