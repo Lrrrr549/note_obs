@@ -243,7 +243,6 @@ Tutti部署：
 - 使用 Flask-RESTful APIs 实现了南北接口，其中南接口使用 C++ 编写，北接口使用 Python 编写
 # 7 EVALUATION
 ## 7.1 Experiment Setup
-
 系统级比较方法：
 	基线：srsRAN+LightEdge+边缘服务器，遵循多轮资源“请求-授予”机制；OnSlicing网络切片方法，针对视频分析进行了实现。
 
@@ -251,5 +250,8 @@ Tutti部署：
 	开发了具有不同QoE需求的应用程序，web uploading（流量短、突发）、file transfer（对延迟不敏感、消耗带宽大）。web上传的响应延迟从页面上传开始记录，直到ACK；FT使用数据块来作为统计单元。
 
 实验场景：
-	空的篮球场
+	空的篮球场，保持UE与BS的连接，在30m的覆盖区域内自由行走。
+## 7.2  System-level Evaluation
+
+
 
