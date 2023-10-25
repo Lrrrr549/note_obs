@@ -295,6 +295,11 @@ Tutti显著提高了视频分析QoE。
 		CPU、GPU开销记录如表5，Tutti的CPU利用率仅增加了2.69%，GPU利用差距也相近。
 ## 7.3 Micro-benchmarks（小规模基准测试）
 
+三种方法消融研究：
+1. 基线，srsEdge
+2. srsEdge+跨层需求定制模块，记作DMD，遵循多轮资源“请求-授予”机制
+3. Tutti，将DMD与对截止日期敏感的资源提供模块（PROV）结合
+![[Pasted image 20231025205919.png]]
 
 
 
