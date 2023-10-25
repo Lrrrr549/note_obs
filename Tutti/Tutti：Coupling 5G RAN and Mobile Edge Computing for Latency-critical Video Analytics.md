@@ -224,4 +224,8 @@ Northern API：Tutti和边缘应用程序交互，获取应用层上下文信息
 Southern API：Tutti和RAN之间，获取RAN状态和资源配置消息；
 为了减少在接口通信中花费的时间，采取了以下措施：
 	1. 定义RESTful节点，统一两个API的消息类型
-	2. 
+	2. 以8bit标准化消息格式，包括协议版本、消息类型、标志和长度项。
+# 6 IMPLEMENTATION（安装）
+
+![[Pasted image 20231025170326.png]]
+设备如图14，
