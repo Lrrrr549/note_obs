@@ -263,6 +263,8 @@ Tutti显著提高了视频分析QoE。
 		![[Pasted image 20231025193323.png]]
 		Tutti所有都在46.2ms内，OnSlicing有8.82%大于，srsEdge只有73%在46.2ms内。
 	对截止日期敏感的资源提供方法可以保证PRB配置的及时执行。
-	
+		![[Pasted image 20231025193844.png]]
+		Tutti所有记录道都在17.29ms内，srsEdge则有19%，OnSlicing有6.06%的记录高于17.29ms。
+		
 
 
