@@ -245,5 +245,7 @@ Tutti部署：
 ## 7.1 Experiment Setup
 
 系统级比较方法：
-基线：srsRAN+LightEdge+边缘服务器，遵循多轮资源“请求-授予”机制；OnSlicing网络切片方法
+	基线：srsRAN+LightEdge+边缘服务器，遵循多轮资源“请求-授予”机制；OnSlicing网络切片方法，针对视频分析进行了实现。
+实验应用程序：
+	开发了具有不同QoE需求的应用程序，web uploading（流量短、突发）、file transfer（对延迟不敏感、消耗带宽大）。web上传的响应延迟从页面上传开始记录，直到ACK；
 
