@@ -266,6 +266,10 @@ Tutti显著提高了视频分析QoE。
 		![[Pasted image 20231025193844.png]]
 		Tutti所有记录道都在17.29ms内，srsEdge则有19%，OnSlicing有6.06%的记录高于17.29ms。
 	Tutti对其他边缘辅助用例友好。
+		![[Pasted image 20231025195016.png]]
+		srsEdge与Tutti有不同的响应延迟。
+		srsEdge很平均，均在236ms左右；Tutti中，OD任务实现最小延迟响应，Web和FT则较高。
+		原因：Tutti能有效理解OD任务中的延迟关键型QoE需求
 	
 
 
