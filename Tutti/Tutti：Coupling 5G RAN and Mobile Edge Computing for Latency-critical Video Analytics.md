@@ -204,3 +204,4 @@ Fig 12展示了操作流程。
 ## 5.1 Incentive and Acceleration Mechanism（激励与加速机制）
 
 公平分配条款的激励机制。
+首先定义一个度量值$\mathcal{S}_{t}$，表达获取资源分配时的满意程度。
