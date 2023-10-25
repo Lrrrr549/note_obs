@@ -261,17 +261,21 @@ Tutti显著提高了视频分析QoE。
 原因：RAN与MEC的耦合设计。
 	通过需求定制模块理解应用程序需求，准备足够的资源。
 		![[Pasted image 20231025193323.png]]
-		Tutti所有都在46.2ms内，OnSlicing有8.82%大于，srsEdge只有73%在46.2ms内。
+		Tutti所有都在46.2ms内，OnSlicing有8.82%大于，srsEdge只有73%在46.2ms内。                 
 	对截止日期敏感的资源提供方法可以保证PRB配置的及时执行。
 		![[Pasted image 20231025193844.png]]
-		Tutti所有记录道都在17.29ms内，srsEdge则有19%，OnSlicing有6.06%的记录高于17.29ms。
+		Tutti所有记录道都在17.29ms内，srsEdge则有19%，OnSlicing有6.06%的记录高于17.29ms。                                                                                                                                            
 	Tutti对其他边缘辅助用例友好。
 		![[Pasted image 20231025195016.png]]
 		srsEdge与Tutti有不同的响应延迟。
 		srsEdge很平均，均在236ms左右；Tutti中，OD任务实现最小延迟响应，Web和FT则较高。
 		原因：Tutti能有效理解OD任务中的延迟关键型QoE需求，srsEdge则是依赖用户设备的缓冲状态来决定分配无线资源。
-		同时，Tutti在其他应用中不会导致性能下降的太多，在Web和FT中增加的延迟是可接受的。
-	在
+		同时，Tutti在其他应用中不会导致性能下降的太多，在Web和FT中增加的延迟是可接受的。                                                                                                                                    
+	频道随用户移动而波动时，Tutti非常有用。
+		首先在场景中测试信道波动，基于测试结果，进行了两个实验：
+			UE-BS距离从5-25米，在位置站点周围行走，绘制OD帧响应延迟。
+			![[Pasted image 20231025200429.png]]
+			
 	
 
 
