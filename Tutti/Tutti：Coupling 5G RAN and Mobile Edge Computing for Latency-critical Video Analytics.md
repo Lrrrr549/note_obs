@@ -289,6 +289,12 @@ Tutti显著提高了视频分析QoE。
 		但是，标准差小且稳定，都在10.49ms内，意味着Tutti的资源分配是公平的。                             
 	Tutti涉及轻量级通信和系统成本
 		①Northern API的通信时间平均仅为0.26ms
-		er
+		②Southern API通信时间也很低，即时消息包高达240字节，时间成本依然约为2ms
+		都可以归结为Tutti的标准兼容RESTful knot和统一信令格式。
+		![[Pasted image 20231025204752.png]]
+		CPU、GPU开销记录如表5，Tutti的CPU利用率仅增加了2.69%，GPU利用差距也相近。
+## 7.3 Micro-benchmarks（小规模基准测试）
+
+
 
 
