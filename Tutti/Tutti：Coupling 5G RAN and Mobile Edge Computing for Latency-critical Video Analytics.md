@@ -260,7 +260,9 @@ Tutti显著提高了视频分析QoE。
 图16表示，Tutti的感知精度相对于二者均有提升。同时相对于“all in box”组也有较小的差距。
 原因：RAN与MEC的耦合设计。
 	通过需求定制模块理解应用程序需求，准备足够的资源。
-	![[Pasted image 20231025193323.png]]
-	Tutti所有dou'z
+		![[Pasted image 20231025193323.png]]
+		Tutti所有都在46.2ms内，OnSlicing有8.82%大于，srsEdge只有73%在46.2ms内。
+	对截止日期敏感的资源提供方法可以保证PRB配置的及时执行。
+	
 
 
