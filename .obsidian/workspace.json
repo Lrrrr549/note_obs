@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutti/名词.md",
+                "file": "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutti/名词.md",
+                "file": "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutti/名词.md"
+                "file": "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md"
               }
             }
           }
@@ -172,10 +171,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e0043698f2e16c76",
+  "active": "dd94b08d027c8913",
   "lastOpenFiles": [
-    "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
     "Tutti/名词.md",
+    "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
     "Tutti/理解.md",
     "Tutti/image/Pasted image 20231025223631.png",
     "Tutti/image/Pasted image 20231025215733.png",
