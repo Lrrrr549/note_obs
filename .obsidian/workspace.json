@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAI/Understand.md",
+                "file": "OAI/OAI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAI/Understand.md",
+                "file": "OAI/OAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAI/Understand.md",
+                "file": "OAI/OAI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAI/Understand.md"
+                "file": "OAI/OAI.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "001e717c49affed1",
+  "active": "6409a32d99699800",
   "lastOpenFiles": [
-    "OAI/OAI.md",
     "OAI/Understand.md",
+    "OAI/OAI.md",
     "工作/二阶段.md",
     "OAI",
     "Tutti/理解.md",
