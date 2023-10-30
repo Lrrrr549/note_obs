@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAI/OAI.md",
+                "file": "OAI/Understand.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAI/OAI.md",
+                "file": "OAI/Understand.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAI/OAI.md",
+                "file": "OAI/Understand.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAI/OAI.md"
+                "file": "OAI/Understand.md"
               }
             }
           }
@@ -149,8 +149,9 @@
   },
   "active": "001e717c49affed1",
   "lastOpenFiles": [
-    "工作/二阶段.md",
     "OAI/OAI.md",
+    "OAI/Understand.md",
+    "工作/二阶段.md",
     "OAI",
     "Tutti/理解.md",
     "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",

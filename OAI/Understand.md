@@ -1,0 +1,2 @@
+OpenAirInterface，OAI平台
+构建完整的LTE仿真项目，要OAI的两个子项目：[openair-cn]([oai / cn5g / oai-cn5g-amf · GitLab (eurecom.fr)](https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-amf))和[openairinterface5G](https://gitlab.eurecom.fr/oai/openairinterface5g)
