@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ecabae6618f54f77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "林睿-2020211984-2020219101班.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAI/OAI.md",
+                "file": "林睿-2020211984-2020219101班.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAI/OAI.md",
+                "file": "林睿-2020211984-2020219101班.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAI/OAI.md"
+                "file": "林睿-2020211984-2020219101班.md"
               }
             }
           }
@@ -147,10 +160,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6409a32d99699800",
+  "active": "ecabae6618f54f77",
   "lastOpenFiles": [
-    "OAI/Understand.md",
     "OAI/OAI.md",
+    "林睿-2020211984-2020219101班.md",
+    "OAI/Understand.md",
     "工作/二阶段.md",
     "OAI",
     "Tutti/理解.md",
@@ -170,7 +184,6 @@
     "Tutti/部分文献.md",
     "工作/实时视频传输.md",
     "工作",
-    "未命名.md",
     "Tutti"
   ]
 }
