@@ -11,8 +11,12 @@
             "id": "231db7773b8613c6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OAI/OnSlicing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OAI/OnSlicing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OAI/OnSlicing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OAI/OnSlicing.md"
+              }
             }
           }
         ],
@@ -141,6 +149,7 @@
   },
   "active": "231db7773b8613c6",
   "lastOpenFiles": [
+    "OAI/OnSlicing.md",
     "OAI/OAI.md",
     "OAI/Understand.md",
     "OAI/强化学习.md",
