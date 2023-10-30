@@ -3,7 +3,7 @@
 - CentOS Linux release 7.4 or higher
 - Red Hat Enterprise Linux 7.7 or higher
 硬件要求:
-	PC:
+	**PC:**
 	1. Intel Core i7 6900K (8 cores), 16GB DDR, 480GB SSD  
 	    Allows SW LDPC on 3 cores (1 segment per slot, 3 slots decoded in parallel, up to 30Mb/s)  
 	    or  
@@ -15,5 +15,8 @@
 	3. Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz with 18 cores and 2x10Gbit Ethernet
 	4. AMD EPYC™ 3rd Gen 7513 32-Core Processor and 2x10Gbit Ethernet
 	5. AMD EPYC™ 3rd Gen 7713 64 Cores Processor and 2x10Gbit Ethernet
-	SDR/USRP
+	**SDR/USRP:**
+		1. USRP N310: 5G专用版本，100MHz带宽
+		2. USRP X310: 支持，能达到$\frac{3}{4}$采样，80MHz带宽
+		3. USRP B210: 支持，能达到$\frac{3}{4}$采样，40MHz带宽
 	
