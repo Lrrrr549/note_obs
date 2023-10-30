@@ -1,3 +1,5 @@
+要求：
+[5g nr development and setup · Wiki · oai / openairinterface5G · GitLab (eurecom.fr)](https://gitlab.eurecom.fr/oai/openairinterface5g/-/wikis/5g-nr-development-and-setup)
 操作系统：
 - Ubuntu 16.04 or 18.04 LTS with the low latency kernel option
 - CentOS Linux release 7.4 or higher
