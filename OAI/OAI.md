@@ -19,4 +19,6 @@
 		1. USRP N310: 5G专用版本，100MHz带宽
 		2. USRP X310: 支持，能达到$\frac{3}{4}$采样，80MHz带宽
 		3. USRP B210: 支持，能达到$\frac{3}{4}$采样，40MHz带宽
-	
+
+OAI开发进度：
+[OAI weekly meetings | Trello](https://trello.com/b/7kFj0kFp/oai-weekly-meetings)
