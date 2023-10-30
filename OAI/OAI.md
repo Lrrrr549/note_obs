@@ -15,3 +15,5 @@
 	3. Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz with 18 cores and 2x10Gbit Ethernet
 	4. AMD EPYC™ 3rd Gen 7513 32-Core Processor and 2x10Gbit Ethernet
 	5. AMD EPYC™ 3rd Gen 7713 64 Cores Processor and 2x10Gbit Ethernet
+	SDR/USRP
+	
