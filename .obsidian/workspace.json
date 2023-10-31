@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b5a54b18fc36463d",
+        "id": "b48d361fe732eb36",
         "type": "tabs",
         "children": [
           {
-            "id": "231db7773b8613c6",
+            "id": "6a056acd0eaaf02f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,13 +147,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "231db7773b8613c6",
+  "active": "6a056acd0eaaf02f",
   "lastOpenFiles": [
+    "[基于opencv的红绿灯检测（python）_openmv.md",
+    "工作/二阶段.md",
     "OAI/强化学习.md",
     "OAI/OAI.md",
     "OAI/Understand.md",
     "OAI/OnSlicing.md",
-    "工作/二阶段.md",
     "林睿-2020211984-2020219101班.md",
     "OAI/images",
     "OAI/images/Pasted image 20231030220424.png",
