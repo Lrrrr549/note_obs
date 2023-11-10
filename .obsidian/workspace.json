@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "OAI/强化学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "OAI/强化学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "OAI/强化学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAI/搭建.md"
+                "file": "OAI/强化学习.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "6a056acd0eaaf02f",
   "lastOpenFiles": [
-    "OAI/OAI.md",
     "OAI/搭建.md",
+    "OAI/OAI.md",
     "工作/二阶段.md",
     "OAI/强化学习.md",
     "OAI/OnSlicing.md",
