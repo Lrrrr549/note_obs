@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAI/OnSlicing.md",
+                "file": "OAI/OAI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAI/OnSlicing.md",
+                "file": "OAI/OAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAI/OnSlicing.md",
+                "file": "OAI/OAI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAI/OnSlicing.md"
+                "file": "OAI/OAI.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "6a056acd0eaaf02f",
   "lastOpenFiles": [
+    "OAI/OnSlicing.md",
     "OAI/OAI.md",
     "OAI/搭建.md",
-    "OAI/OnSlicing.md",
     "OAI/强化学习.md",
     "工作/二阶段.md",
     "OAI/Understand.md",
