@@ -1,7 +1,7 @@
 # General
 - [FEATURE_SET](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/FEATURE_SET.md): 支持的功能
 - [GET_SOURCES](GET_SOURCES.md): 如何下载资源
-- [BUILD.md](./BUILD.md): how to build the sources
+- [BUILD](./BUILD.md): build sources
 - [cross-compile.md](./cross-compile.md): how to cross-compile OAI for ARM
 - [clang-format.md](./clang-format.md): how to format the code
 - [environment-variables.md](./environment-variables.md): the environment variables used by OAI

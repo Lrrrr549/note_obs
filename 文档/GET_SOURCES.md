@@ -21,4 +21,6 @@ git clone https://gitlab.eurecom.fr/oai/openairinterface5g.git
 `develop`：包含在我们的 CI 测试平台上测试过的最新提交。更新频率约为每周一次。5G 仅在此分支中。
 `master`：包含 4G 的稳定版本，将来会更新为 5G。
 tag的命名规则：
-- 在`develop`分支上**v1**
+- On `develop` branch **`yyyy`.w`xx`**
+  * `yyyy` 是年份
+  * `xx` 是该年的星期数

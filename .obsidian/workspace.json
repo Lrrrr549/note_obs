@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "文档/GET_SOURCES.md",
+                "file": "文档/OpenAirInterface documentation overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "文档/GET_SOURCES.md",
+                "file": "文档/OpenAirInterface documentation overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "文档/GET_SOURCES.md",
+                "file": "文档/OpenAirInterface documentation overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "文档/GET_SOURCES.md"
+                "file": "文档/OpenAirInterface documentation overview.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "6a056acd0eaaf02f",
   "lastOpenFiles": [
-    "文档/OpenAirInterface documentation overview.md",
+    "文档/BUILD.md",
     "文档/GET_SOURCES.md",
+    "文档/OpenAirInterface documentation overview.md",
     "文档/FEATURE_SET.md",
     "OAI/搭建.md",
     "文档",
