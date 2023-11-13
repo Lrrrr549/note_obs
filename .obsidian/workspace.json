@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "文档/未命名.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "ffd3cb392ec7cb28",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "文档/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "文档/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAI/搭建.md"
+                "file": "文档/未命名.md"
               }
             }
           }
@@ -147,12 +155,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6409a32d99699800",
+  "active": "6a056acd0eaaf02f",
   "lastOpenFiles": [
+    "文档/OpenAirInterface documentation overview.md",
+    "文档/未命名.md",
+    "文档/FEATURE_SET.md",
+    "OAI/搭建.md",
     "文档",
     "OAI/OAI.md",
     "OAI/OnSlicing.md",
-    "OAI/搭建.md",
     "OAI/强化学习.md",
     "工作/二阶段.md",
     "OAI/Understand.md",
