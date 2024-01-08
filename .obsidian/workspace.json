@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b48d361fe732eb36",
+        "id": "5208c88d18d8a1cf",
         "type": "tabs",
         "children": [
           {
-            "id": "6a056acd0eaaf02f",
+            "id": "e4bea147b8f5128c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "LACO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "LACO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OAI/搭建.md",
+                "file": "LACO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OAI/搭建.md"
+                "file": "LACO.md"
               }
             }
           }
@@ -147,35 +147,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6a056acd0eaaf02f",
+  "active": "e4bea147b8f5128c",
   "lastOpenFiles": [
-    "OAI/OAI.md",
-    "OAI/搭建.md",
-    "工作/二阶段.md",
-    "OAI/强化学习.md",
-    "OAI/OnSlicing.md",
-    "OAI/Understand.md",
-    "[基于opencv的红绿灯检测（python）_openmv.md",
+    "EECS 183.md",
+    "LACO.md",
+    "强化学习/多臂老虎机.md",
+    "Pasted image 20231203210236.png",
+    "Pasted image 20231203201610.png",
+    "LACO",
+    "文档/NR_SA_Tutorial_COTS_UE.md",
+    "文档/Equipment.md",
     "林睿-2020211984-2020219101班.md",
-    "OAI/images",
-    "OAI/images/Pasted image 20231030220424.png",
-    "OAI",
-    "Tutti/理解.md",
+    "强化学习",
+    "image/Pasted image 20231114135524.png",
+    "OAI/强化学习.md",
     "Tutti/Tutti：Coupling 5G RAN and Mobile Edge Computing for Latency-critical Video Analytics.md",
-    "Tutti/名词.md",
+    "OAI/OAI.md",
+    "Tutti/理解.md",
+    "工作/Highway.md",
+    "文档/NR_SA_Tutorial_OAI_nrUE.md",
+    "文档/OpenAirInterface documentation overview.md",
+    "文档/NR_SA_Tutorial_OAI_CN5G.md",
+    "文档/BUILD.md",
+    "image/Pasted image 20231114140309.png",
+    "image/Pasted image 20231114140309的副本.png",
+    "image",
+    "image/Pasted image 20231114135500.png",
+    "image/Pasted image 20231114135450.png",
+    "文档/RUNMODEM.md",
+    "_TOC_.md",
+    "文档/GET_SOURCES.md",
+    "文档/environment-variables.md",
+    "文档/clang-format.md",
+    "OAI/openairinterface5g/-/blob/develop/cmake_targets/build_oai.md",
+    "oai/openairinterface5g/-/blob/develop/cmake_targets/build_oai.md",
+    "OAI/openairinterface5g/-/blob/develop/cmake_targets",
+    "OAI/openairinterface5g/-/blob/develop",
+    "OAI/openairinterface5g/-/blob",
+    "OAI/openairinterface5g/-",
+    "OAI/openairinterface5g",
+    "oai/openairinterface5g/-/blob/develop/cmake_targets",
+    "oai/openairinterface5g/-/blob/develop",
+    "文档/FEATURE_SET.md",
+    "OAI/搭建.md",
+    "OAI/OnSlicing.md",
+    "工作/二阶段.md",
+    "OAI/images/Pasted image 20231030220424.png",
     "Tutti/image/Pasted image 20231025223631.png",
-    "Tutti/image/Pasted image 20231025215733.png",
-    "Tutti/image/Pasted image 20231025193844.png",
-    "Tutti/image/Pasted image 20231025193323.png",
-    "Tutti/image/Pasted image 20231025192812.png",
-    "Tutti/image/Pasted image 20231023220827.png",
-    "Tutti/image/Pasted image 20231025195016.png",
-    "Tutti/image/Pasted image 20231025214142.png",
-    "Tutti/image/Pasted image 20231025212808.png",
-    "Tutti/image",
-    "Tutti/部分文献.md",
-    "工作/实时视频传输.md",
-    "工作",
-    "Tutti"
+    "Tutti/image/Pasted image 20231025215733.png"
   ]
 }
